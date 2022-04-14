@@ -4,9 +4,9 @@ echo 正在执行. . .
 
 yum install iptables-services -y
 
-curl -sSL https://cdn.jsdelivr.net/gh/HXHGTS/AliyunProtectUninstall/uninstall.sh | sh
+curl -sSL http://update.aegis.aliyun.com/download/uninstall.sh | bash
 
-curl -sSL https://cdn.jsdelivr.net/gh/HXHGTS/AliyunProtectUninstall/quartz_uninstall.sh | sh
+curl -sSL http://update.aegis.aliyun.com/download/quartz_uninstall.sh | bash
 
 pkill aliyun-service
 
